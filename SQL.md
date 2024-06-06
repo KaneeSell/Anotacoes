@@ -116,6 +116,12 @@ select categoriaId,
 	drop table #Teste --deletando tabela temporaria
 	drop table ##Teste --deletando tabela global
 
+	use master --conectar no banco de dados master, para podermos deletar outros bancos ou mesmo usar banco master
+
+	drop database BDTeste --deletando banco BDTeste
+	drop database vendas --deletando banco vendas
+
+
 
 ```
 
